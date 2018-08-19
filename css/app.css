@@ -1,0 +1,67 @@
+/**
+ * 公共样式:
+ * 主要包括全局字体font-size\font-weight\font-family等字体样式。
+ * 页面骨架布局。
+ * 公共组件结构布局(结构)
+ * 结合flex.css库
+ */
+html,
+body,
+page,
+view,
+text,
+botton,
+image,
+input,
+label,
+textarea {
+  -webkit-text-size-adjust: none;
+  font-family: Pingfang SC,Helvetica;
+  font-weight: 300!important ;
+  font-size: 0.59733rem;
+}
+page {
+  width: 100% ;
+  height: 100% ;
+  position: absolute ;
+  top: 0 ;
+  left: 0 ;
+  bottom: 0 ;
+  right: 0 ;
+}
+.taro_page {
+  position: absolute;
+  top: 0 ;
+  left: 0 ;
+  right: 0 ;
+  bottom: 0 ;
+  width: 100% ;
+}
+image {
+  width: 1.024rem;
+  height: 1.024rem;
+}
+/*水平垂直居中*/
+.content-center {
+  display: -webkit-flex;
+  display: flex ;
+  -webkit-justify-content: center ;
+          justify-content: center ;
+  -webkit-align-items: center ;
+          align-items: center ;
+}
+/*水平居中*/
+.horizontal-center {
+  display: -webkit-flex;
+  display: flex ;
+  -webkit-justify-content: center ;
+          justify-content: center ;
+}
+/*垂直居中*/
+.vertical-center {
+  display: -webkit-flex;
+  display: flex ;
+  -webkit-align-items: center ;
+          align-items: center ;
+}
+
